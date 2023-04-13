@@ -26,5 +26,19 @@
     }
 }
 @media( max-width: 767px){
-    
+    h1{
+        font-size: 1.875rem;
+        line-height: 2.5rem;
+    }
+    h3{
+        font-size: 1.75rem;
+        line-height: 2.75rem;
+    }
+    h5{
+        font-size: 1.25rem;
+    }
+    p{
+        font-size: 0.8125rem;
+        line-height: 1.5rem;
+    }
 }
