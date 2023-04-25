@@ -1,3 +1,8 @@
+
+$(window).on("load", function(){
+    $("#loader").fadeTo(5000,1).fadeOut(1500);
+})
+
 // Header Scroll
 let nav = document.querySelector(".navbar");
 window.onscroll = function () {
