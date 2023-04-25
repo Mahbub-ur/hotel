@@ -16,7 +16,11 @@
 
     <!-- Link Swiper's CSS -->
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
-    <!-- Custom File's Link -->
+    
+    <!-- AOS's Link -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- Owl Carousel's Link -->
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
 
@@ -100,7 +104,8 @@
             </div>
             <div class="swiper-pagination"></div>
         </div>
-        <div class="container booking-area">
+        <div class="container booking-area" data-aos="fade-up"
+        data-aos-anchor-placement="center-center">
             <form class="row">
                 <div class="col-lg mb-3 mb-lg-0">
                     <input type="date" class="form-control" placeholder="Date">
@@ -141,7 +146,7 @@
     <!-- About section -->
     <section id="about" class="about_wrapper">
         <div class="container">
-            <div class="row flex-lg-row flex-column-reverse ">
+            <div class="row flex-lg-row flex-column-reverse" data-aos="fade-right">
                 <div class="col-lg-6 text-center text-lg-start">
                     <h3>Welcome to <span>Hotel <br class="d-none d-lg-block">
                             the haven</span> of your weekend</h3>
@@ -152,7 +157,7 @@
                         dolores eos qui ratione voluptatem</p>
                     <a href="#" class="main-btn mt-4">Explore</a>
                 </div>
-                <div class="col-lg-6 mb-4 mb-lg-0 ps-lg-4 text-center">
+                <div class="col-lg-6 mb-4 mb-lg-0 ps-lg-4 text-center" data-aos="fade-left">
                     <img decoding="async" src="images/about-img.svg" class="img-fluid" alt="About Us">
                 </div>
 
@@ -171,7 +176,7 @@
                 </div>
             </div>
             <div class="row m-0">
-                <div class="col-md-4 mb-4 mb-lg-0">
+                <div class="col-md-4 mb-4 mb-lg-0" data-aos="fade-up-right" data-aos-duration="2000">
                     <div class="room-item">
                         <img decoding="async" src="./images/room/room1.webp" class="img-fluid">
                         <div class="room-item-wrap">
@@ -185,7 +190,7 @@
                         </div> 
                     </div> 
                 </div>
-                <div class="col-md-4 mb-4 mb-lg-0">
+                <div class="col-md-4 mb-4 mb-lg-0" data-aos="flip-left" data-aos-duration="2000">
                     <div class="room-item">
                         <img decoding="async" src="./images/room/room2.webp" class="img-fluid">
                         <div class="room-item-wrap">
@@ -199,7 +204,7 @@
                         </div>
                     </div> 
                 </div>
-                <div class="col-md-4 mb-4 mb-lg-0">
+                <div class="col-md-4 mb-4 mb-lg-0" data-aos="fade-up-left" data-aos-duration="2000">
                     <div class="room-item">
                         <img decoding="async" src="./images/room/room3.webp" class="img-fluid">
                         <div class="room-item-wrap">
@@ -339,7 +344,7 @@
                 </div>
             </div>
             <div class="row owl-carousel">
-                <div class="me-3 mb-4">
+                <div class="me-3 mb-4" data-aos="zoom-in" data-aos-duration="1000">
                     <div class="card p-0 rounded-3">
                         <img decoding="async" src="images/team/team1.webp" class="img-fluid rounded-3" />
                         <div class="team-info">
@@ -354,7 +359,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="me-3 mb-4">
+                <div class="me-3 mb-4" data-aos="zoom-in" data-aos-duration="1250">
                     <div class="card p-0 rounded-3">
                         <img decoding="async" src="images/team/team5.webp" class="img-fluid rounded-3" />
                         <div class="team-info">
@@ -369,7 +374,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="me-3 mb-4">
+                <div class="me-3 mb-4" data-aos="zoom-in" data-aos-duration="1500">
                     <div class="card p-0 rounded-3">
                         <img decoding="async" src="images/team/team2.webp" class="img-fluid rounded-3" />
                         <div class="team-info">
@@ -384,7 +389,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="me-3 mb-4">
+                <div class="me-3 mb-4" data-aos="zoom-in" data-aos-duration="1750">
                     <div class="card p-0 rounded-3">
                         <img decoding="async" src="images/team/team3.webp" class="img-fluid rounded-3" />
                         <div class="team-info">
@@ -399,7 +404,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="me-3 mb-4">
+                <div class="me-3 mb-4" data-aos="zoom-in" data-aos-duration="2000">
                     <div class="card p-0 rounded-3">
                         <img decoding="async" src="images/team/team4.webp" class="img-fluid rounded-3" />
                         <div class="team-info">
@@ -468,7 +473,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-3 col-md-6 mb-4">
+                <div class="col-lg-3 col-md-6 mb-4" data-aos="fade-down-right" data-aos-easing="linear" data-aos-duration="1500">
                     <div class="card p-4 text-center rounded-3">
                         <h5 class="text-decoration-underline mb-4">Economic</h5>
                         <ul class="list-unstyled">
@@ -490,7 +495,7 @@
                         <a href="#" class="main-btn">Sign Up</a>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 mb-4">
+                <div class="col-lg-3 col-md-6 mb-4" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500">
                     <div class="card p-4 text-center rounded-3">
                         <h5 class="text-decoration-underline mb-4">Economic</h5>
                         <ul class="list-unstyled">
@@ -512,7 +517,7 @@
                         <a href="#" class="main-btn">Sign Up</a>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 mb-4">
+                <div class="col-lg-3 col-md-6 mb-4" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
                     <div class="card p-4 text-center rounded-3">
                         <h5 class="text-decoration-underline mb-4">Economic</h5>
                         <ul class="list-unstyled">
@@ -534,7 +539,7 @@
                         <a href="#" class="main-btn">Sign Up</a>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 mb-4">
+                <div class="col-lg-3 col-md-6 mb-4" data-aos="fade-down-left" data-aos-easing="linear" data-aos-duration="1500">
                     <div class="card p-4 text-center rounded-3">
                         <h5 class="text-decoration-underline mb-4">Economic</h5>
                         <ul class="list-unstyled">
@@ -573,8 +578,8 @@
             <div class="row">
                 <div class="col-md-6 mb-4">
                     <div class="card p-0 border-0 rounded-0">
-                        <img decoding="async" src="images/blog/blog1.webp" alt="">
-                        <div class="blog-content bg-white p-4">
+                        <img decoding="async" src="images/blog/blog1.webp"  data-aos="zoom-out-up" data-aos-duration="1500" alt="">
+                        <div class="blog-content bg-white p-4" data-aos="flip-up" data-aos-duration="3000">
                             <h5 class="text-decoration-underline mb-4">Relax Zone</h5>
                             <h6>By Admin - February 18, 2018</h6>
                             <p class="mt-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, nostrum.
@@ -586,8 +591,8 @@
                 </div>
                 <div class="col-md-6 mb-4">
                     <div class="card p-0 border-0 rounded-0">
-                        <img decoding="async" src="images/blog/blog2.webp" alt="">
-                        <div class="blog-content bg-white p-4">
+                        <img decoding="async" src="images/blog/blog2.webp"  data-aos="zoom-out-down" data-aos-duration="1500" alt="">
+                        <div class="blog-content bg-white p-4" data-aos="flip-up" data-aos-duration="3000">
                             <h5 class="text-decoration-underline mb-4">Relax Zone</h5>
                             <h6>By Admin - February 18, 2018</h6>
                             <p class="mt-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, nostrum.
@@ -692,6 +697,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
     
+    <!-- AOS JS CDN Links -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
     <!-- Custom Js Link -->
     <script src="js/scripts.js"></script>
 </body>

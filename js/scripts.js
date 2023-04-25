@@ -3,6 +3,8 @@ $(window).on("load", function(){
     $("#loader").fadeTo(5000,1).fadeOut(1500);
 })
 
+AOS.init();
+
 // Header Scroll
 let nav = document.querySelector(".navbar");
 window.onscroll = function () {
@@ -47,7 +49,7 @@ $(document).ready(function(){
 
 
 // counter design
-$(".number").counterUp({time:3000});
+$(".number").counterUp({time:2000});
 
 
 // Our Partner
