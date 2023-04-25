@@ -1,6 +1,6 @@
 
 $(window).on("load", function(){
-    $("#loader").fadeTo(5000,1).fadeOut(1500);
+    $("#loader").fadeOut(1000);
 })
 
 AOS.init();
@@ -44,37 +44,45 @@ $(document).ready(function(){
     $(".owl-carousel").owlCarousel({
         items:4,
         loop:true,
+        responsiveClass:true,
+        responsive:{
+            0:{
+                items:2,
+            },
+            600:{
+                items:3,
+            },
+            1000:{
+                items:4,
+            }
+        }
     });
   });
-
+  $(document).ready(function(){
+    $(".our-partner").owlCarousel({
+        items:5,
+        loop:true,
+        responsiveClass:true,
+        responsive:{
+            0:{
+                items:1,
+            },
+            400:{
+                items:2,
+            },
+            600:{
+                items:4,
+            },
+            1000:{
+                items:5,
+            }
+        }
+    });
+  });
 
 // counter design
 $(".number").counterUp({time:2000});
 
 
 // Our Partner
-var swiper = new Swiper(".our-partner", {
-    slidesPerView: 5,
-    spaceBetween: 30,
-    loop: true,
-    autoplay: {
-        delay: 2000,
-    },
-    breakpoints: {
-        '991': {
-            slidesPerView: 5,
-            spaceBetween: 10,
-        },
-        '767': {
-            slidesPerView: 3,
-            spaceBetween: 10,
-        },
-        '320': {
-            slidesPerView: 2,
-            spaceBetween: 8,
-        },
-
-
-    },
-});
 

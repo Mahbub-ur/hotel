@@ -1,18 +1,3 @@
-/* TABLE OF CONTENTS */
-/* ------------------
-1. General
-2. Navbar
-3. Slider
-4. About
-5. Rooms
-6. Services
-6. Team
-7. Gallery
-8. Price
-9. Blog
-10. Footer
--------------------- */
-
 /* 1 General */
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
@@ -59,6 +44,7 @@ body {
   width: 100px;
   height: 100px;
   animation: spin 2s linear infinite;
+  z-index: 99999;
 }
 
 @keyframes spin {
@@ -614,7 +600,10 @@ p {
     background-color: var(--bg-color);
     padding: 3.125rem 0;
 }
-
+.owl-nav,
+.owl-dots{
+    display: none;
+}
 /* 11 footer */
 .footer_wrapper {
     background-color: var(--bg-black);
